@@ -69,19 +69,19 @@ Decrypted Text: Hanoi University of Science and Technology
 ### Test 2: Test Vector chuẩn RC4
 
 **Test 2.1:**
-- Key: `"Key"` (0x4B 0x65 0x79)
-- Plaintext: `"Plaintext"` (0x50 0x6C 0x61 0x69 0x6E 0x74 0x65 0x78 0x74)
+- Key (Hex): `"Key"` (4B 65 79)
+- Plaintext (Hex): `"Plaintext"` (50 6C 61 69 6E 74 65 78 74)
 - Expected Ciphertext (Hex): `BB F3 16 E8 D9 40 AF 0A D3`
 
 **Test 2.2:**
-- Key: `"Wiki"` (0x57 0x69 0x6B 0x69)
-- Plaintext: `"pedia"` (0x70 0x65 0x64 0x69 0x61)
-- Expected Ciphertext (Hex): `10 21 BF 04 20`
+- Key (Hex): `"hust"` (68 75 73 74)
+- Plaintext (Hex): `"dien tu"` (64 69 65 6E 20 74 75)
+- Expected Ciphertext (Hex): `B6 3C 7B 0D 3F 2E 3B`
 
 **Test 2.3:**
-- Key: `"Secret"` (0x53 0x65 0x63 0x72 0x65 0x74)
-- Plaintext: `"Attack at dawn"` (0x41 0x74 0x74 0x61 0x63 0x6B 0x20 0x61 0x74 0x20 0x64 0x61 0x77 0x6E)
-- Expected Ciphertext (Hex): `45 A0 1F 64 5F C3 5B 38 35 52 54 4B 9B F5`
+- Key (Hex): `"Google"` (47 6F 6F 67 6C 65)
+- Plaintext (Hex): `"Drive"` (44 72 69 76 65)
+- Expected Ciphertext (Hex): `4C 7F 4B 5E 5A`
 
 ### Hướng dẫn test thủ công
 
@@ -127,3 +127,4 @@ RC4 là thuật toán mã hóa dòng (stream cipher) gồm 2 giai đoạn chính
 - `rc4_decrypt()`: Hàm giải mã
 - `print_decrypted_text()`: In plaintext
 - `print_decrypted_hex()`: In plaintext dạng hex
+
