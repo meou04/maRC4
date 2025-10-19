@@ -1,4 +1,4 @@
-# RC4 Encryption/Decryption Implementation
+# RC4 Encryption/Decryption
 
 Dự án này cài đặt thuật toán mã hóa dòng RC4 (Rivest Cipher 4) để mã hóa và giải mã chuỗi văn bản.
 
@@ -155,5 +155,6 @@ RC4 hiện không còn được khuyến nghị sử dụng trong các ứng d�
 Dự án được phát triển cho môn học Mật mã học - Hanoi University of Science and Technology
 
 ## 📄 License
+
 
 MIT License - Free for educational purposes
